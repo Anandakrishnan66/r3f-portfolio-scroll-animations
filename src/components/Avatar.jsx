@@ -15,7 +15,7 @@ export function Avatar(props) {
     wireframe: false,
   });
   const group = useRef();
-  const { nodes, materials } = useGLTF("models/646d9dcdc8a5f5bddbfac913.glb");
+  const { nodes, materials } = useGLTF("models/653fccae0f390147f5689382.glb");
 
   const { animations: typingAnimation } = useFBX("animations/Typing.fbx");
   const { animations: standingAnimation } = useFBX(
@@ -123,4 +123,4 @@ export function Avatar(props) {
   );
 }
 
-useGLTF.preload("models/646d9dcdc8a5f5bddbfac913.glb");
+useGLTF.preload("models/653fccae0f390147f5689382.glb");

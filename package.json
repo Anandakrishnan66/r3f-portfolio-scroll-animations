@@ -1,22 +1,29 @@
 {
-  "name": "r3f-vite-starter",
-  "private": true,
+  "name": "portfolio",
+  "private": false,
   "version": "1.0.0",
   "type": "module",
+  "license": "ISC",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.15",
     "@react-three/drei": "9.75.0",
     "@react-three/fiber": "8.13.3",
+    "dotenv": "^16.3.1",
     "framer-motion": "^10.12.16",
     "framer-motion-3d": "^10.12.16",
     "gsap": "^3.12.0",
     "leva": "^0.9.34",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.17.0",
     "three": "0.146.0"
   },
   "devDependencies": {
